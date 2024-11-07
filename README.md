@@ -1,2 +1,8 @@
 # Tomkits-api
 API for Tomkits application
+
+
+- Requirements
+
+python 3.10.x
+
