@@ -43,3 +43,13 @@ def get_disease_class_name(predicted_class):
         return class_names[predicted_class]
     else:
         return "Undefined"
+
+
+def predict_leaf(image_preprocessed):
+    prediction = model_leaf.predict(image_preprocessed)
+    predicted_class = np.argmax(prediction)
+    class_name = get_leaf_class_name(predicted_class)
+
+    return class_name, float(prediction[0][predicted_class])
+
+
