@@ -1,4 +1,4 @@
-# Tomkits-api
+# Tomkits-ML-api
 API for Tomkits application
 
 
@@ -6,3 +6,4 @@ API for Tomkits application
 
 python 3.10.x
 read the requirments.txt
+
